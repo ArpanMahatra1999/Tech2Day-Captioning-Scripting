@@ -28,5 +28,5 @@ jobs:
           SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
           APP_PASSWORD: ${{ secrets.APP_PASSWORD }}
           RECEIVER_EMAIL: ${{ secrets.RECEIVER_EMAIL }}
-          WEEKLY_BOOKS: ${{ secrets.WEEKLY_BOOKS }}
+          WEEKLY_TECHS: ${{ secrets.WEEKLY_TECHS }}
         run: python main.py
