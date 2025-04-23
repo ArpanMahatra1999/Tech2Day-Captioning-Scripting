@@ -22,7 +22,7 @@ if __name__ == "__main__":
             "title": tech["title"],
             "weekday": tech["weekday"],
             "script": f"""Generate video for script: {script}.
-                        Don't forget to tell in the end that ORDER YOUR COPY NOW! THE LINK IS AVAILABLE IN BIO.""",
+                        Don't forget to tell in the end that GET YOUR ORDER NOW! THE LINK IS AVAILABLE IN BIO.""",
             "caption": caption
         })
         time.sleep(30)
